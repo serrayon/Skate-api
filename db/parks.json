@@ -1,0 +1,32 @@
+[
+  {
+  "name": "Balboa Park",
+  "image": "",
+  "description": "Outdoor",
+  "location": "Ocean Avenue &, San Jose Avenue, San Francisco, CA 94112"
+  },
+  {
+  "name": "SoMa West Skate Park",
+  "image": "",
+  "description": "Street Park with Tranny",
+  "location": "SoMa West Skatepark, Central Fwy, San Francisco, CA 94103"
+  },
+  {
+  "name": "Potrero",
+  "image": "",
+  "description": "Tranny",
+  "location": "1443-1473 Potrero Ave, San Francisco, CA 94110"
+  },
+  {
+  "name": "Crocker Amazon Playground",
+  "image": "https://www.skatein.com/admin/wp-content/uploads/2016/12/Crocker-Amazon-Skatepark-3.jpg",
+  "description": "Thrasher sponsored",
+  "location": "799 Moscow St, San Francisco, CA 94112"
+  },
+  {
+  "name": "Flower Shop",
+  "image": "http://www.skateallcities.com/wordpress/wp-content/uploads/2009/01/2009-01-flowershop03.jpg",
+  "description": "Tranny",
+  "location": "hidden"
+  }
+  ]
