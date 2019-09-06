@@ -53,11 +53,11 @@ app.use('/api/v1/users', routes.users);
 app.use('/api/v1/parks', routes.parks);
 
 // Post Routes
-// app.use('/api/v1/posts', routes.posts);
+app.use('/api/v1/posts', routes.posts);
 
-app.get('/api/v1/test', (req, res) => {
-  res.json({ status: 200, message: 'Success' })
-})
+// app.get('/api/v1/test', (req, res) => {
+//   res.json({ status: 200, message: 'Success' })
+// })
 
 // -------------------------- START SERVER -------------------------- //
 
