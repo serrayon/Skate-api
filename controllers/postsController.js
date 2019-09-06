@@ -26,23 +26,23 @@ const create = (req, res) => {
     // res.status(201).json({status: 201, data: createdPost});
   });
 };
-// const edit = (req, res) => {
-//   db.Post.findByIdAndUpdate(req.params.id, req.body, {new: true}, (err, editedPost) => {
-//     if (err) return res.status(500).json({status: 500, message: 'Something went wrong, please try again...'})
-//     res.status(202).json({status: 202, data: editedPost});
-//   });
-// };
-// const deletePost = (req, res) => {
-//   db.Post.findByIdAndDelete(req.params.id, (err, deletedPost) => {
-//     if (err) return res.status(400).json({status: 400, message: 'Something went wrong, please try again...'});
-//     res.status(200).json({status: 200, message: 'Success'});
-//   });
-// };
+const edit = (req, res) => {
+  db.Post.findByIdAndUpdate(req.params.id, req.body, {new: true}, (err, editedPost) => {
+    if (err) return res.status(500).json({status: 500, message: 'Something went wrong, please try again...'})
+    res.status(202).json({status: 202, data: editedPost});
+  });
+};
+const deletePost = (req, res) => {
+  db.Post.findByIdAndDelete(req.params.id, (err, deletedPost) => {
+    if (err) return res.status(400).json({status: 400, message: 'Something went wrong, please try again...'});
+    res.status(200).json({status: 200, message: 'Success'});
+  });
+};
 module.exports = {
   show,
   index,
   create,
-  // edit,
-  // deletePost
+  edit,
+  deletePost
 }
 
