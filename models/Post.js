@@ -56,6 +56,10 @@ const postSchema = new Schema({
         type: Date,
         default: Date.now
     },
+    parks: {
+        type: Schema.Types.ObjectId,
+        ref: 'Parks'
+    }
     // comment: [Comment.schema],
     // city: {
     //   type: String
