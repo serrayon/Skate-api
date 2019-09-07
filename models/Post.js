@@ -38,6 +38,9 @@
 
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
+
+
+
 // const Comment = require('./Comment');
 const postSchema = new Schema({
     username: {
@@ -59,11 +62,26 @@ const postSchema = new Schema({
     parks: {
         type: Schema.Types.ObjectId,
         ref: 'Parks'
+    },
+    // comments: [{ type: Schema.Types.ObjectId, ref: 'Comment' }],
+    comments: [{
+        text: String,
+        postedBy: {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: 'User'
+        }
+    }],
+    city: {
+      type: String
     }
-    // comment: [Comment.schema],
-    // city: {
-    //   type: String
-    // }
 });
+
+// { title: 'Hello',
+//   content: 'New Post',
+//   comments: [1]
+// }
+
+// var Comment  = mongoose.model('Comment', commentSchema);
+
 const Post = mongoose.model('Post', postSchema)
 module.exports =  Post;

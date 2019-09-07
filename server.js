@@ -55,6 +55,7 @@ app.use('/api/v1/parks', routes.parks);
 // Post Routes
 app.use('/api/v1/posts', routes.posts);
 
+app.use('/api/v1/comments', routes.comments)
 
 // app.get('/api/v1/test', (req, res) => {
 //   res.json({ status: 200, message: 'Success' })

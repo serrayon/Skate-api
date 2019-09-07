@@ -16,11 +16,16 @@ const index = (req, res) => {
   });
 };
 const create = (req, res) => {
+  console.log("in postsController create");
+  console.log(req.body);
+  console.log("-----------------------------");
   db.Post.create(req.body, (err, createdPost) => {
     if (err) return res.status(400).json({status: 400, message: "something went wrong, please try again..."});
+    console.log("Post.create returned successfully");
     createdPost.user = req.session.currentUser.id;
     createdPost.save((error, savedPost) => {
       if (error) return res.status(500).send(error);
+      console.log("Saved!");
       res.send(savedPost);
     })
     // res.status(201).json({status: 201, data: createdPost});
