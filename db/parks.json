@@ -3,30 +3,35 @@
   "name": "Balboa Park",
   "image": "http://a.espncdn.com/photo/2012/1013/as_skate_Balboa_576.jpg",
   "description": "Outdoor",
-  "location": "Ocean Avenue &, San Jose Avenue, San Francisco, CA 94112"
+  "location": "Ocean Avenue &, San Jose Avenue, San Francisco, CA 94112",
+  "href": "https://www.google.com/maps/place/Balboa+Skatepark/@37.7231869,-122.4450726,15z/data=!4m2!3m1!1s0x0:0xf93786674031524e?sa=X&ved=2ahUKEwihwMiE-r_kAhUSrlkKHbN5Dj0Q_BIwG3oECA0QCA"
   },
   {
   "name": "SoMa West Skate Park",
   "image": "https://sfpublicworks.org/sites/default/files/styles/flexslider_full/public/1_2.jpg?itok=2LMIsdZF",
   "description": "Street Park with Tranny",
-  "location": "SoMa West Skatepark, Central Fwy, San Francisco, CA 94103"
+  "location": "SoMa West Skatepark, Central Fwy, San Francisco, CA 94103",
+  "href": "https://www.google.com/maps/place/SoMa+West+Skatepark/@37.7700959,-122.4214833,15z/data=!4m2!3m1!1s0x0:0xd6077e3b8c8d7136?sa=X&ved=2ahUKEwjs7vm4m8DkAhUPnZ4KHQVOAWIQ_BIwGnoECA8QCA"
   },
   {
   "name": "Potrero",
   "image": "https://sfrecpark.org/wp-content/uploads/unspecified37U38MXI-600x400.jpg",
   "description": "Tranny",
-  "location": "1443-1473 Potrero Ave, San Francisco, CA 94110"
+  "location": "1443-1473 Potrero Ave, San Francisco, CA 94110",
+  "href": "https://www.google.com/maps/place/Potrero+Skatepark/@37.7503424,-122.4051857,15z/data=!4m5!3m4!1s0x0:0x704f80d91b25253c!8m2!3d37.7503424!4d-122.4051857"
   },
   {
   "name": "Crocker Amazon Playground",
   "image": "https://www.skatein.com/admin/wp-content/uploads/2016/12/Crocker-Amazon-Skatepark-3.jpg",
   "description": "Thrasher sponsored",
-  "location": "799 Moscow St, San Francisco, CA 94112"
+  "location": "799 Moscow St, San Francisco, CA 94112",
+  "href": "https://www.google.com/maps/place/Crocker+Amazon+Playground/@37.7144459,-122.4305872,15z/data=!4m2!3m1!1s0x0:0x31d2819d9402db9?sa=X&ved=2ahUKEwi2oK2Sm8DkAhVJnJ4KHaMWCpYQ_BIwE3oECBAQCA"
   },
   {
   "name": "Flower Shop",
   "image": "http://www.skateallcities.com/wordpress/wp-content/uploads/2009/01/2009-01-flowershop03.jpg",
   "description": "Tranny",
-  "location": "hidden"
+  "location": "hidden",
+  "href": "https://www.google.com/maps/place/37%C2%B044'13.0%22N+122%C2%B024'34.0%22W/@37.7369367,-122.4116428,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d37.7369367!4d-122.4094541"
   }
   ]

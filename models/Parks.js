@@ -14,6 +14,9 @@ const cityParks = new Schema({
   location: {
     type: String,
   },
+  href: {
+    type: String,
+  }
 });
 
 const Parks = mongoose.model('City', cityParks); // collection name 

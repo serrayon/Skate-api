@@ -4,7 +4,7 @@ const ctrl = require('../controllers');
 const authRequired = require('../middleware/authRequired');
 
 // Current Path
-// '/api/v1/auth'
+//  '/api/v1/auth'
 
 // POST Register Route
 router.post('/register', ctrl.auth.register);
