@@ -70,10 +70,7 @@ const postSchema = new Schema({
             type: mongoose.Schema.Types.ObjectId,
             ref: 'User'
         }
-    }],
-    city: {
-      type: String
-    }
+    }]
 });
 
 // { title: 'Hello',
