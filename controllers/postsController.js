@@ -43,6 +43,7 @@ const deletePost = (req, res) => {
     res.status(200).json({status: 200, message: 'Success'});
   });
 };
+
 module.exports = {
   show,
   index,
